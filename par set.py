@@ -25,4 +25,33 @@ output:
 {'predictive analytics for food delivery systems', 'Inventory Management System', 'Library Management System'}
 ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
 33
-43
+43codegnan = {
+    "Exams": {
+        "Python": 92,
+        "Aptitude": 84,
+        "MySQL": 89
+    },
+
+    "Mock Interviews": {
+        "1st Mock Interview": 8,
+        "2nd Mock Interview": 9
+    },
+
+    "Project Demos": {
+        "Project 1": "Library Management System",
+        "Project 2": "Inventory Management System",
+        "Project 3": "Food Delivery Analytics"
+    }
+}
+
+print(codegnan["Exams"])
+print(codegnan["Mock Interviews"])
+print(codegnan["Project Demos"])
+
+output:
+
+{'Python': 92, 'Aptitude': 84, 'MySQL': 89}
+{'1st Mock Interview': 8, '2nd Mock Interview': 9}
+{'Project 1': 'Library Management System', 'Project 2': 'Inventory Management System', 'Project 3': 'Food Delivery Analytics'}
+
+
